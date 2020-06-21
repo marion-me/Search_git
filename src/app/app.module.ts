@@ -8,6 +8,7 @@ import { SearchDetailComponent } from './search-detail/search-detail.component';
 import { DateCountPipe } from './date-count.pipe';
 import { UserComponent } from './user/user.component';
 import { GithubService } from './github-services/github-services.component';
+import { DFormComponent } from './d-form/d-form.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { GithubService } from './github-services/github-services.component';
     SearchDetailComponent,
     DateCountPipe,
     UserComponent,
-    GithubService
+    GithubService,
+    DFormComponent
   ],
   imports: [
     BrowserModule,
