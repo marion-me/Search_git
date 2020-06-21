@@ -11,6 +11,7 @@ import { GithubService } from './github-services/github-services.component';
 import { DFormComponent } from './d-form/d-form.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { HttpServeComponent } from './http-serve/http-serve.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     GithubService,
     DFormComponent,
     NavBarComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    HttpServeComponent
   ],
   imports: [
     BrowserModule,
