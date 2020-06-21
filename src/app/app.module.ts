@@ -9,6 +9,7 @@ import { DFormComponent } from './d-form/d-form.component';
 import { navBarComponent } from './nav-bar/nav-bar.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { RepoComponent } from './repo/repo.component';
+import { GithubService } from './Gitub-service/github.service';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { RepoComponent } from './repo/repo.component';
     navBarComponent,
     PageNotFoundComponent,
     RepoComponent,
+    GithubService
   ],
   imports: [
     BrowserModule,
