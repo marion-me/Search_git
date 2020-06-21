@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { SearchComponent } from './search/search.component';
 import { SearchDetailComponent } from './search-detail/search-detail.component';
 import { DateCountPipe } from './date-count.pipe';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchComponent,
     SearchDetailComponent,
-    DateCountPipe
+    DateCountPipe,
+    UserComponent
   ],
   imports: [
     BrowserModule,
