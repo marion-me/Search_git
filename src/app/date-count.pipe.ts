@@ -3,7 +3,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 @Pipe({
   name: 'datePipes'
 })
-export class DatePipesPipe implements PipeTransform {
+export class DateCountPipe implements PipeTransform {
 
   transform(value: any): any {
     if (value) {
