@@ -1,0 +1,27 @@
+<div class="jumbotron">
+    <link href="https://fonts.googleapis.com/css?family=Lemonada&display=swap" rel="stylesheet">
+    <app-deep-form>(repoSearch)="Search($event)" </app-deep-form>
+    <h3 class="card-header text-center">Repositories</h3>
+    <div class="card" *ngFor='let repo of repos'>
+        <div class="card-row">
+            <div class="card-header text-center">
+                <h4>{{repository.name}}</h4>
+                <div class="card-body">
+                    <div class="">
+                        <div class="col">
+                            <p>{{repository.description}}</p>
+                            <p>{{repository.language}}</p>
+                            <button class="btn btn-warning">Watcher: {{repository.watchers}}</button>
+                            <button class="btn btn-primary">Forkers: {{repository.forks}}</button>
+                            <p>Created: {{repo.created_at | datePipes}}</p>
+                            <span><a href="{{repo.html_url}}" class="btn btn-success">View More</a></span>
+ 
+                        </div>
+ 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+ 

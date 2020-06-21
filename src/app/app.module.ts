@@ -8,6 +8,7 @@ import { UserComponent } from './user/user.component';
 import { DFormComponent } from './d-form/d-form.component';
 import { navBarComponent } from './nav-bar/nav-bar.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { RepoComponent } from './repo/repo.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     DFormComponent,
     navBarComponent,
     PageNotFoundComponent,
+    RepoComponent,
   ],
   imports: [
     BrowserModule,
